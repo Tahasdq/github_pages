@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MenoeRegular';
+    src: url('/public/fonts/Menoe_Grotesque_Pro-Regular_TypeToday.ttf') format('truetype');
+    font-family: 'Oswald';
+    src: url('/public/fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+.text-custom {
+    font-family: "MenoeRegular", sans-serif;
+}
+
+.text-custom2 {
+    font-family: "Oswald", sans-serif;
+}
